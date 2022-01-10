@@ -1,5 +1,12 @@
 {
    "type": "Feature",
+   "metadata": {
+      "author": "Clemens Portele",
+      "mediaTypes": [
+         "application/geo+json",
+         "application/fg+json;compatibility=geojson"
+      ]
+   },
    "id": "DENW19AL0000giv5BL",
    "featureType": "app:building",
    "when": {
@@ -128,6 +135,11 @@
          "rel":"describedby",
          "type":"application/schema+json",
          "title":"This document is a GeoJSON Feature"
+      },
+      {
+         "href":"https://creativecommons.org/licenses/by/2.0/",
+         "rel":"license",
+         "title":"CC BY 2.0"
       }
    ],
    "properties": {

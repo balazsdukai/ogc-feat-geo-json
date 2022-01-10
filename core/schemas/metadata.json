@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://beta.schemas.opengis.net/json-fg/metadata.json",
+  "title": "metadata",
+  "type": "object",
+  "properties": {
+    "mediaTypes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "application/geo+json",
+          "application/fg+json",
+          "application/fg+json;compatibility=geojson"
+        ]
+      }
+    }
+  }
+}

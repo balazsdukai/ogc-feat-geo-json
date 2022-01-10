@@ -9,6 +9,9 @@
       "type": "string",
       "enum": ["FeatureCollection"]
     },
+    "metadata": {
+      "$ref": "metadata.json"
+    },
     "featureType": {
       "$ref": "featuretype.json"
     },

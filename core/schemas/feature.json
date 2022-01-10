@@ -9,6 +9,9 @@
       "type": "string",
       "enum": ["Feature"]
     },
+    "metadata": {
+      "$ref": "metadata.json"
+    },
     "id": {
       "oneOf": [
         {
